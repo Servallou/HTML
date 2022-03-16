@@ -1,7 +1,30 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 li ul{
     display:none;
 }
 
 li:hover ul{
     display:block;
+    
+    
+}
+li{
+    display:block;
+    position:relative;
+    padding: 5px;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+ul{
+    display:flex;
+    position:relative;
+    flex-wrap: wrap;
 }
