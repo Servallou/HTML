@@ -4,27 +4,52 @@ body{
 
 li ul{
     display:none;
+
 }
 
 li:hover ul{
     display:block;
+    position:absolute;
+    z-index:1;
+    margin-left:100px;
+    background:red;
     
-    
+
 }
+
 li{
-    display:block;
+    list-style-type:none;
     position:relative;
-    padding: 5px;
+    border: 1px solid;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 100px;
+    text-align:center;
+    color: black;
+    
+
 }
-nav{
-    display:flex;
+.menu{
+    display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    
+        
+}
+
+li:hover {
+    background-color:rgba(255,0,0,40%);
+    transition: all 0.2s;
 
 }
 
-ul{
-    display:flex;
-    position:relative;
-    flex-wrap: wrap;
+a {
+    text-decoration: none;
+    
 }
+
+
+
