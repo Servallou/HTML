@@ -1,0 +1,105 @@
+body{    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li ul{
+    display:none;
+    
+
+}
+
+li:hover ul{
+    display:flex;
+    position:absolute;
+    z-index:1;
+    /* ==== Solution de dernier recours ====*/
+    margin-left:120px;
+    top:-0px; 
+    padding:initial;
+    align-content: stretch; 
+    flex-direction: column;
+    
+
+    
+
+}
+
+li{
+    display:flex;
+
+
+    list-style-type:none;
+    position:relative;
+    
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    
+    min-width: 120px;
+
+    color: black;
+
+    
+
+}
+
+
+li,ul {
+    display:flex;
+    flex-direction: column;
+    align-content:space-around;
+    
+}
+
+
+nav{
+    display: flex;
+    position:static;
+    flex-direction: row;
+    
+    border-right: 1px solid black;
+    
+    
+}
+
+li:hover {
+    background-color:rgba(253, 163, 163, 0.514);
+    transition: all 0.2s;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover li{
+    background-color:rgb(231, 101, 101);
+
+}
+
+
+h1 {
+    display:flex;
+    border-bottom: 1px solid black;
+    color:rgba(87, 87, 87, 0.4);
+    background: rgba(255, 0, 0, 0.116)
+}
+
+.conteneur{
+    display:flex;
+    position:relative;
+    align-content: center;
+}
+
+
+div p{
+    margin-left: 80px;
+    color: rgb(180, 180, 180);
+
+}
+
+
+
+
+
